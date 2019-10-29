@@ -60,7 +60,7 @@
         <p>
           <%= label_tag t(:preview) %>
           <br>
-          <%= image_tag f.object.slide_image, class: 'img-responsive' %>
+          <%= image_tag image_path(main_app.url_for(f.object.slide_image)), class: 'img-responsive' %>
         </p>
       <% end %>
     <% end %>
